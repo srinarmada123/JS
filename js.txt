@@ -1,0 +1,16 @@
+JavaScript
+-------------
+Scripting language.
+
+Brenden Eich, 1995.
+
+Netscape Communicatuins Corporation,	->	LiveScript
+
+
+
+display properties
+
+document.write("");
+window.alert("");
+console.log("");
+
