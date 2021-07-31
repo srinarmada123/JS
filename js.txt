@@ -14,3 +14,123 @@ document.write("");
 window.alert("");
 console.log("");
 
+operators
+
+addition
+subtraction
+multiplication
+division
+modulus
+%	->	remainder
+/	->	Quotient
+
+relational operators
+-------------------------
+a=10	b=2
+>		(a>b)=(10>2)=1
+<		(a<b)=(10<2)=0
+>=		(a>=b)=(10>=2)=1
+<=		(a<=b)=(10<=2)=0
+==		(a==b)=(10==2)=0
+!=		(a!=b)=(10!=2)=1
+
+conditional statements:-
+------------------------------
+if
+	if(condition)
+	statement;
+	
+	if the condition is true it executes statement1.
+
+if-else
+	if(condition)
+		statement1;
+	else
+		statement2;
+
+	if the condition is true it executes statement1 otherwise statement2.
+
+if-else-if
+
+	if(condition1)
+		statement1;
+	else if(condition2)
+		statement2;
+	else if(condition3)
+		statement3;
+	else if(condition4)
+		statement4;
+	if the condition1 is true it executes statement1, if the condition1 is fail it goes to condition2 if it is true it goes to condition2 if the condition2 is executes statement2, if the condition2 is fail it goes to condition3 if it is true it goes to condition3 if the condition3 is executes statement2 is fail and so.on.
+
+
+Control Statements:-
+-------------------------
+while
+do-while
+for
+
+while:-	Entry Controlled loop statement. If condition is true it executes the statements till the condition becomes false.
+syntax:
+while(condition)
+{
+statements;
+}
+
+dowhile:-	Exit controlled loop statement. 
+
+
+
+for:- For is an entry controlled loop statement. It goes from initialization to condition. If the condition is true it executes the statements. After execution of statements it goes to the increment / decrement. After increment / decrement it goes to the again condition. If the condition is true it executes the statements. After execution of statements it goes to the increment / decrement. After increment / decrement it goes to the again condition and so.on. If the condition is fail it comes out.
+
+for(initialization;condition;increment/decrement)
+{
+statements;
+}
+
+var, let and const:-
+
+var is used to declare variables in javascript. The var declarations can be globally or locally scoped. IF the var is declared outside a function it is globally scoped. This means that any var variables declared globally are available for use in the whole window. If the var is declared inside a function it is function scoped. This means that it is avaialable and can be accessed only within that function.
+
+
+Hoistig of var:-
+	Hoisting is a mechanism where variables and function declarations are moved to the top of their scope before the code is executed. 
+
+document.write("The a value is "+a);
+		var a=10;
+
+let:-
+let declaration is the preferred way for variable declaration after the ES6 was released.
+
+let a=10;
+document.write("The a value is "+a);
+
+const
+
+Array:
+Array index starts from zero ends with size-1. Array is a collection of elements related to the same type. Array stores the elements in index order.  Array stores the elements in continuous memory locations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
