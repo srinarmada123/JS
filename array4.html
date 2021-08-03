@@ -24,7 +24,22 @@
 		var resstr=a.concat(res1,res);*/
 		var resstr=a.concat(res);
 		document.write("The concated array values are: <br/>");
-		document.write(resstr);					
+		document.write(resstr);
+		a.push(10);
+		a[2]=33;
+		a.unshift(20);
+		document.write("<br/>After Inserting the array values are: <br/>");
+		document.write(a);
+		a.pop();
+		a.shift();
+//		delete a[2];
+		a.splice(2,1);	//2 represents which position onwards
+				//1 represents how many no.of elements you want to remove
+		document.write("<br/>After Removing the array values are: <br/>");
+		document.write(a);
+		const na=a.slice(1);
+		document.write("<br/>The new array values are: <br/>");
+		document.write(na);			
 		</script>
 	</head>
 </html>
