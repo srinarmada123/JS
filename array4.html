@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script>
+		a=new Array(62,23,84,44);
+		document.write("<br/>Array Values are: <br/>");
+		for(i=0;i<a.length;i++)
+		document.write(a[i]+"<br/>");
+		a.sort();
+		document.write("<br/>The Sorted Array Values are: <br/>");
+		for(i=0;i<a.length;i++)
+		document.write(a[i]+"<br/>");
+		a.reverse();
+		document.write("<br/>The Reverse Ordered Array Values are: <br/>");
+		for(i=0;i<a.length;i++)
+		document.write(a[i]+"<br/>");
+		document.write("The copied array values are: <br/>");
+		var res=a.copyWithin(4);
+		for(i=0;i<res.length;i++)
+		document.write(res[i]+"<br/>");
+/*var res1=res.copyWithin(1,2);	//place form 1st position, the elements after 2nd position
+		document.write("The copied array values are: <br/>");
+		for(i=0;i<res1.length;i++)
+		document.write(res1[i]+"<br/>");
+		var resstr=a.concat(res1,res);*/
+		var resstr=a.concat(res);
+		document.write("The concated array values are: <br/>");
+		document.write(resstr);					
+		</script>
+	</head>
+</html>
