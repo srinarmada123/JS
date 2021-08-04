@@ -1,0 +1,35 @@
+functions
+------------
+statement or set of statements is nothing but function.
+
+4 types
+
+1. function with argument with return value
+function functionname(argument){
+	statements;
+	return value/variable/expression;
+}
+functionname(value/variable/expression);
+
+2. function without argument with return value
+function functionname(){
+	statements;
+	return value/variable/expression;
+}
+functionname();
+
+3. function with argument without return value
+
+function functionname(argument){
+	statements;
+}
+functionname(value/variable/expression);
+
+4. function without argument without return value
+
+function functionname(){
+	statements;
+}
+functionname();
+
+

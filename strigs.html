@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>JS String Functions Example</title>
+		<script>
+			var s="Sita and Rama are wife and husband";
+			document.write("You are "+s);
+			document.write("<br/>Length of string is "+s.length);
+			document.write("<br/>bold string is "+s.bold());
+			document.write("<br/>bold string is "+s.italics());
+			document.write("<br/>Upper Case string is "+s.toUpperCase());
+			document.write("<br/>Lower Case string is "+s.toLowerCase());
+			document.write("<br/>First Index of a is "+s.indexOf('a'));
+			document.write("<br/>Last Index of a is "+s.lastIndexOf('a'));
+			document.write("<br/>slice() of string is "+s.slice(1,2));
+			document.write("<br/>slice() of string is "+s.slice(1));
+			document.write("<br/>substr() of string is "+s.substr(1,2));
+			document.write("<br/>charAt() of string is "+s.charAt(0));
+			document.write("<br/>charAt() of string is "+s.charAt(2));
+			document.write("<br/>charCodeAt() of string is "+s.charCodeAt(2));
+/*			document.write("<br/>Replaced String is "+s.replace("Rama","sita"));*/
+			document.write("<br/>Replaced String is "+s.replace(/rama/i,"Sita"));
+			document.write("<br/>Searched String is "+s.search(/rama/i));
+		</script>
+	</head>
+</html>
+
