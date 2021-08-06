@@ -1,0 +1,2 @@
+call() method takes arguments separately.
+apply() method takes arguments as an array.

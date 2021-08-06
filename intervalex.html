@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script>
+		
+		function fun(){
+		x=setInterval(
+			function(){document.getElementById("o").innerHTML+="Welcome";}
+			,2000);
+		}
+		function fun1()
+		{
+			clearInterval(x);
+		}
+		</script>
+	</head>
+	<body>
+		<p id="o"></p>
+		<input type="button" onclick="fun()" id="b" value="Show"/>		
+		<input type="button" onclick="fun1()" id="b1" value="Stop Showing Messages"/>		
+	</body>
+</html>

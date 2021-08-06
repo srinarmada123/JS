@@ -1,0 +1,16 @@
+<html>
+	<body>	
+			<p id="o"></p>
+			<script>
+			function fun1(p){
+				document.getElementById("o").innerHTML=p;
+			}	
+			function mainfun(n1,n2,cb)
+			{
+				let s=n1*n2;
+				cb(s);
+			}
+			mainfun(10,2,fun1);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script>
+		
+		function fun(){
+		x=setTimeout(function(){
+			document.getElementById("o").innerHTML="Welcome";
+			},10000);	
+		}
+			
+		function fun1(){
+			clearTimeout(x);
+		}
+
+		</script>
+	</head>
+	<body>
+		<p id="o"></p>		
+		<input type="button" value="show" onclick="fun()"/>
+		<input type="button" value="stop show" onclick="fun1()"/>
+	</body>		
+</html>

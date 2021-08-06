@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script>
+		const emp={
+			fullName:function(){
+				return this.fName+" "+this.lName;
+			}
+		}
+		const p1={
+			fName:"Rama",
+			lName:"Sita"
+			};
+		const p2={
+			fName:"Sai",
+			lName:"Ram"
+			};
+		document.write(emp.fullName.apply(p1));	
+		document.write("<br/>"+emp.fullName.apply(p2));	
+		</script>
+	</head>
+</html>

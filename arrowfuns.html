@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Arrow Functions</title>
+		<script>
+			fun1=()=>{document.write("Hi");}			
+			fun=()=>
+			{
+			return "Welcome to Arrow Functions";
+			}
+			document.write(fun());
+			fun1=()=> "Welcome to Arrow Function1";			
+			document.write("<br/>"+fun1());
+			fun2=(n)=> "The Number is "+n;			
+			document.write("<br/>"+fun2(10));
+			fun3=n=> "The Number is "+n;			
+			document.write("<br/>"+fun3(10));
+			fun4=(n2,n1)=> "The Sum is "+(n1+n2);			
+			document.write("<br/>"+fun4(10,2));
+			sh=()=>{
+				document.getElementById("t1").value="Welcome";
+				document.getElementById("o").innerHTML="Welcome";						}			
+		</script>	
+	</head>
+	<body>
+		Enter a Number: <input type="text" id="t1" /><br/>
+		<div id="o"></div><br/>
+		<input type="button" value="show" onclick="sh()" /><br/>
+	</body>
+</html>
+

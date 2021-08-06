@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script>
+		var myButton={
+				content: 'OK',
+				click(){
+				document.write("<br/>"+this.content+" Clicked");
+				}
+			};
+		myButton.click();
+		var bClick=myButton.click.bind(myButton);
+		bClick();
+		var diff=function(a,b){
+			return "<br/>Difference = "+(a-b);
+		};
+		var d=diff.bind(null,5);
+		document.write(d(10));
+		</script>
+	</head>
+</html>
