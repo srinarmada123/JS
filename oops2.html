@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script>
+class A
+{
+constructor(nm){
+	this.name=nm;
+}
+fun()
+{
+	document.write("<Br/>This is function");
+}
+}
+class B extends A
+{
+	constructor()
+	{
+	super("Sairam");
+	}
+	print()
+	{		
+		document.write("You are "+this.name);
+	}	
+}
+const obj=new B();
+obj.print();
+obj.fun();
+</script>
+</head>
+</html>

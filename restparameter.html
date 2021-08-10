@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script>
+			/*function fun(a,b){
+				return a+b;
+			}
+			document.write("Sum = "+fun(1,2));
+			document.write("<br/>Sum = "+fun(1,2,56,7,3));*/
+			function fun(...arr)
+			{
+				let s=0;
+				for(let v of arr)
+				{
+					s+=v;
+				}
+				return s;
+			}
+			document.write("<br/>Sum = "+fun(1,2));
+			document.write("<br/>Sum = "+fun(1,2,6,7,3));
+		</script>
+	</head>
+</html>

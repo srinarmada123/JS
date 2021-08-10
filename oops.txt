@@ -1,0 +1,17 @@
+OOPS:-
+--------
+class & object
+
+JavaScript classes are templates for javascript objects.
+
+class keyword is used to create a class.
+
+always add a method named constructor():
+
+class classname
+{
+constructor(){
+	......
+}
+}
+

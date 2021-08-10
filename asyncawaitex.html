@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Async Await Example</title>
+		<script>
+			async function dis()
+			{
+				let myp=new Promise(function(res,rej)
+				{
+					res("Welcome");		
+				});	
+				document.write(await myp);
+			}
+			dis();
+		</script>
+	</head>
+</html>

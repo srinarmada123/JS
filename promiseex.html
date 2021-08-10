@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Sample Example</title>
+	</head>
+	<body>
+		<div id="o"></div>
+		<script>
+		function dis(s)
+		{
+			document.getElementById("o").innerHTML=s;
+		}
+		let p=new Promise(function(res,rej)
+		{
+			let x=11;
+			if(x%2==0)
+				res("Even");
+			else	
+				rej("Odd");
+		});
+		p.then(
+			function(v){dis(v);},
+			function(e){dis(e);}
+		);
+		</script>
+	</body>
+</html>
